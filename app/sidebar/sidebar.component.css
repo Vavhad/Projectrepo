@@ -1,0 +1,30 @@
+
+.profile{
+    background-color: transparent !important;
+    z-index: 1;
+  }
+
+  .navbar-toggler i.fas {
+    font-size: 24px; /* Adjust the font size as needed */
+    transition: transform 0.3s ease; /* Add a transition effect */
+  }
+
+  .navbar-toggler:hover i.fas {
+    transform: scale(1.2); /* Increase the size on hover */
+  }
+
+  .navbar-toggler:focus {
+    outline: none; /* Remove the outline on focus */
+  }
+
+  .navbar-toggler.active i.fas {
+    transform: rotate(180deg); /* Rotate the icon when the offcanvas is active */
+  }
+
+
+  .text-over-img{
+    text-align: center;
+    margin-top: 300px;
+    color:white;
+    font-family:  Copperplate, "Copperplate Gothic Light", fantasy;
+  }

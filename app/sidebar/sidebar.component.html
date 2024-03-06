@@ -1,0 +1,44 @@
+
+<!-- Profile Icon -->
+<nav class="navbar navbar-dark bg-dark  profile" style="margin: 18px;margin-top: -120px; z-index: 1;">
+    <div class="container-fluid ">
+      <a class="navbar-brand " href="#" ></a>
+      <button class="navbar-toggler " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation" style="border: 0px;">
+        <i class="fas fa-user-circle"></i>
+      </button>
+      <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">
+            <i class="fas fa-user-circle"></i>   User Profile</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <h1 style="font-weight: bolder;">Welcome {{person}}</h1>
+
+          
+  
+          <ul class="navbar-nav pagination   justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link  "  href="home" aria-current="page" style="font-weight: bolder;">
+                <i class="fas fa-home"></i>   Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="about" routerLink="\about" style="font-weight: bolder;">
+                <i class="fas fa-info-circle"></i>   About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="book" routerLink="\book" style="font-weight: bolder;">
+                <i class="fas fa-bed"></i>   Booking Room</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact" routerLink="\contact" style="font-weight: bolder;">
+                <i class="fas fa-envelope"></i>   Contact</a>
+            </li>
+         
+          </ul>
+        
+        </div>
+      </div>
+    </div>
+  </nav>
+  

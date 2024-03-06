@@ -1,0 +1,358 @@
+.back-img{
+    
+  object-fit: cover;
+  margin-top: -8.8em; /* Ensure the image covers the entire container */
+  z-index: -1;
+  border: 0;
+  
+
+}
+h4{
+  font-family: Copperplate, "Copperplate Gothic Light", fantasy; 
+color: #E5E8E8;
+font-size: 20px;
+}
+a{
+font-family: Copperplate, "Copperplate Gothic Light", fantasy; 
+color: #E5E8E8;
+}
+h1,h3{
+  font-family: Copperplate, "Copperplate Gothic Light", fantasy; 
+  color: #E5E8E8;
+  margin-left: 80px;
+  font-weight: bolder;
+  
+}
+h1{
+  margin-top: 180px;
+ 
+
+}
+h3{
+  margin-top: 10px;
+}
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+.text-over-img{
+  margin-left: 30%;
+  color: white;
+}
+
+.about-us-text{
+  width: 800px;
+  float: left;
+  margin: 50px;
+  font-family: Copperplate, "Copperplate Gothic Light", fantasy; 
+  overflow: visible;
+  color: white;
+}
+
+.about-us-img{
+  width: auto;
+  float: right;
+  margin: 40px;
+  margin-right: 100px;
+  /* margin: 40px; */
+  height: auto;
+  position: relative;
+}
+
+.about-us-img2{
+  
+  float: left;
+  margin-left: 40px;
+  margin-top: -150px;
+  padding-bottom: 90px;
+ 
+
+}
+.about-us-text2{
+ width: 600px;
+  float: right;
+  color: white;
+  font-family: Copperplate, "Copperplate Gothic Light", fantasy; 
+  padding: 50px;
+  margin: 10px;
+  text-align: left;
+}
+.dwork{
+  margin-right: 10%;
+  color: #212F3D;
+  font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+ margin-right: 20%;
+  margin-left: 20%;
+  margin:90px;
+
+}
+
+.profile{
+  background-color: transparent !important;
+  z-index: 1;
+}
+
+.navbar-toggler i.fas {
+  font-size: 24px; /* Adjust the font size as needed */
+  transition: transform 0.3s ease; /* Add a transition effect */
+}
+
+.navbar-toggler:hover i.fas {
+  transform: scale(1.2); /* Increase the size on hover */
+}
+
+.navbar-toggler:focus {
+  outline: none; /* Remove the outline on focus */
+}
+
+.navbar-toggler.active i.fas {
+  transform: rotate(180deg); /* Rotate the icon when the offcanvas is active */
+}
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+  background: #2C3E50;
+  background: -webkit-linear-gradient(to top, #2C3E50, #2C3E50);
+  background: linear-gradient(to top, #2C3E50, #2C3E50);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.card1 {
+  border-radius: 16px;
+  width: 250px; /* Adjust the width */
+  height: 250px; /* Adjust the height */
+  background: url(../../assets/Room1.jpeg); /* Update the path to your image */
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 5px 50px rgba(0, 0, 0, 0.85);
+}
+
+.card1:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.92);
+}
+
+.card1 .img1 ,.img2,.img3,.img4,.img5 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+
+
+/* First Image*/
+.card1 .img1 span {
+  width: 35%;
+  height: 100%;
+  background: url(../../assets/VV.jpg) ; /* Update the path to your image */
+  transition: 0.5s;
+  background-size: cover;
+}
+
+.card1 .img1 span:nth-child(1) {
+  background-position: 0;
+  transition-delay: 0;
+  
+}
+
+.card1 .img1 span:nth-child(2) {
+  background-position: 34.33333%;
+  transition-delay: 0.1s;
+  
+}
+
+.card1 .img1 span:nth-child(3) {
+  background-position: 67.66666%;
+  transition-delay: 0.2s;
+  
+}
+
+.card1 .img1 span:nth-child(4) {
+  background-position: 100%;
+  transition-delay: 0.3s;
+}
+
+.card1:hover .img1 > span {
+  transform: translateY(-100%);
+  
+
+}
+
+
+/* Second Image*/
+
+.card1 .img2 span {
+  width: 35%;
+  height: 100%;
+  background: url(../../assets/Varsha.jpeg); /* Update the path to your image */
+  transition: 0.5s;
+  background-size: cover;
+}
+
+.card1 .img2 span:nth-child(1) {
+  background-position: 0;
+  transition-delay: 0;
+}
+
+.card1 .img2 span:nth-child(2) {
+  background-position: 34.33333%;
+  transition-delay: 0.1s;
+}
+
+.card1 .img2 span:nth-child(3) {
+  background-position: 67.66666%;
+  transition-delay: 0.2s;
+}
+
+.card1 .img2 span:nth-child(4) {
+  background-position: 100%;
+  transition-delay: 0.3s;
+}
+
+.card1:hover .img2 > span {
+  transform: translateY(-100%);
+}
+
+
+/* Third Image*/
+.card1 .img3 span {
+width: 35%;
+height: 100%;
+background: url(../../assets/TV.jpeg); /* Update the path to your image */
+transition: 0.5s;
+background-size: cover;
+}
+
+.card1 .img3 span:nth-child(1) {
+background-position: 0;
+transition-delay: 0;
+}
+
+.card1 .img3 span:nth-child(2) {
+background-position: 34.33333%;
+transition-delay: 0.1s;
+}
+
+.card1 .img3 span:nth-child(3) {
+background-position: 67.66666%;
+transition-delay: 0.2s;
+}
+
+.card1 .img3 span:nth-child(4) {
+background-position: 100%;
+transition-delay: 0.3s;
+}
+
+.card1:hover .img3 > span {
+transform: translateY(-100%);
+}
+
+
+
+/* 4th Image */
+.card1 .img4 span {
+width: 35%;
+height: 100%;
+background: url(../../assets/Darshan.jpeg); /* Update the path to your image */
+transition: 0.5s;
+background-size: cover;
+
+}
+
+.card1 .img4 span:nth-child(1) {
+background-position: 0;
+transition-delay: 0;
+}
+
+.card1 .img4 span:nth-child(2) {
+background-position: 34.33333%;
+transition-delay: 0.1s;
+}
+
+.card1 .img4 span:nth-child(3) {
+background-position: 67.66666%;
+transition-delay: 0.2s;
+}
+
+.card1 .img4 span:nth-child(4) {
+background-position: 100%;
+transition-delay: 0.3s;
+}
+
+.card1:hover .img4 > span {
+transform: translateY(-100%);
+}
+
+
+
+/* 5th Image */
+.card1 .img5 span {
+width: 35%;
+height: 100%;
+background: url(../../assets/Harish.jpeg); /* Update the path to your image */
+transition: 0.5s;
+background-size: cover;
+}
+
+.card1 .img5 span:nth-child(1) {
+background-position: 0;
+transition-delay: 0;
+}
+
+.card1 .img5 span:nth-child(2) {
+background-position: 34.33333%;
+transition-delay: 0.1s;
+}
+
+.card1 .img5 span:nth-child(3) {
+background-position: 67.66666%;
+transition-delay: 0.2s;
+}
+
+.card1 .img5 span:nth-child(4) {
+background-position: 100%;
+transition-delay: 0.3s;
+}
+
+.card1:hover .img5 > span {
+transform: translateY(-100%);
+}
+
+
+
+
+
+.card1:hover .content {
+  transform: translateY(0%);
+  transition: 1s;
+  transition-delay: 0.1s;
+}
+
+.content1 {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  padding: 20px 20px;
+  width: 100%;
+  height: 100%;
+  transform: translateY(100%);
+  font-family: Copperplate, "Copperplate Gothic Light", fantasy ;
+}

@@ -1,0 +1,128 @@
+/* .container{
+    margin-top: 100px;
+    padding: 20px;
+    margin-bottom: 100px;
+    font-family: Copperplate, "Copperplate Gothic Light", fantasy; 
+     z-index: 1;
+     background-color: white;
+  }
+  
+  span{
+    border: 0;
+    padding: 10px;
+    margin: 10px;
+    background-color: white;
+    color: red;
+  }
+  
+  .card{
+    width: 500px;
+    height: 700px;
+    margin-left: 60px;
+    margin: 0;
+  }
+  form{
+    padding: 50px;
+  }
+  input{
+    background-color: white;
+    opacity: 1;
+  }
+  
+  
+  
+  
+  
+  .form-floating input,label {
+    font-size: medium;
+    transition: transform 0.3s ease; 
+  }
+  
+  .form-floating:hover input {
+    transform: scale(1.1); 
+    z-index: 1;
+    background-color: whitesmoke;
+    border: 1px solid whitesmoke;
+  }
+  
+  .form-floating .form-select  {
+    font-size: medium;
+    transition: transform 0.3s ease; 
+  }
+  
+  .form-floating:hover .form-select {
+    transform: scale(1.1); 
+    z-index: 1;
+    background-color: whitesmoke;
+    border: 1px solid whitesmoke;
+  } */
+
+
+  .container{
+    margin-top: 320px;
+    padding: 20px;
+    margin-bottom: 100px;
+    font-family: Copperplate, "Copperplate Gothic Light", fantasy; 
+     z-index: 1;
+     background-color: white;
+   
+  }
+  h1{
+    font-family: Copperplate, "Copperplate Gothic Light", fantasy; 
+  }
+  span{
+    border: 0;
+    padding: 10px;
+    margin: 10px;
+    color: red;
+  }
+  
+  .card{
+    width: 500px;
+    height: 700px;
+    margin-left: 60px;
+    margin: 0;
+  }
+  form{
+    padding: 50px;
+  }
+  input{
+    background-color: white;
+    opacity: 1;
+  }
+  
+  /* .outside-form{
+    background-color: white;
+   margin: 0 0 0 0;
+    width: 85%;
+    
+  } */
+  /* .outer{
+    margin-left: 100px;
+  } */
+  
+  
+  
+  .form-floating input,label {
+    font-size: medium;
+    transition: transform 0.3s ease; /* Add a transition effect */
+  }
+  
+  .form-floating:hover input {
+    transform: scale(1.1); 
+    z-index: 1;/* Increase the size on hover */
+    background-color: whitesmoke;
+    border: 1px solid whitesmoke;
+  }
+  
+  .form-floating .form-select  {
+    font-size: medium;
+    transition: transform 0.3s ease; /* Add a transition effect */
+  }
+  
+  .form-floating:hover .form-select {
+    transform: scale(1.1); 
+    z-index: 1;/* Increase the size on hover */
+    background-color: whitesmoke;
+    border: 1px solid whitesmoke;
+  }

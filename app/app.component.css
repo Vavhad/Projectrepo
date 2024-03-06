@@ -1,0 +1,60 @@
+/* styles.css */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  
+  
+  .nav-tag{
+      line-height: 3.5;
+      z-index: 1;
+      padding: 0;
+  }
+  .nav{
+    z-index: 1;
+    margin-top: 4px;
+    padding: 0;
+  }
+  
+    a{
+      font-family: Copperplate, "Copperplate Gothic Light", fantasy; 
+      font-size: 24px;
+      color: white;
+    }
+    a:visited {
+      color: white;
+    }
+    a:active{
+      color: #212F3D;
+    }
+   .container-fluid{
+      margin-top: -10px;
+      opacity: 0.8;
+      background-color: #212F3D;
+      width: 100%;
+   } 
+  .icon-link{
+      color: black;
+  }
+  .navbar{
+      opacity: 0.8;
+      width: 100%;
+  }
+  
+  
+  /* Default color for nav links */
+  /* .nav-link {
+    color: white;
+  }
+   */
+  /* Active link color */
+  /* .custom-nav-link.active {
+    color: gray;
+  } */
+  
+  /* .nav-link.active {
+    color: gray;
+  }
+   */
+

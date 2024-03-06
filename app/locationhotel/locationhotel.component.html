@@ -1,0 +1,85 @@
+<div class="grid" style="background-color: #1C2833;">
+    <div class="row fixed-top" style="z-index: -1;">
+        <div class="col-md-12"
+            style="background-color: #1C2833;height: 250px; margin-top: 0;width: 100%;margin-right: 0; ">
+
+
+        </div>
+    </div>
+
+    <app-sidebar></app-sidebar>
+
+
+
+
+
+    <!-- <script src="https://kit.fontawesome.com/95a02bd20d.js"></script>
+
+
+    <div class="row " style="display: inline-flex; margin-bottom: 50px; margin-left: auto; margin-inline-start: 80px;"
+        *ngFor="let l of hotels">
+        <div class="col-md-1 offset-md-1 "></div>
+        <div class="card col-md-6 zoom-card" style="width: 25em;padding: 20px; background-color: #4D5656;">
+            <img src="../../assets/Room2.jpeg" class="card-img-top zoom-image" alt="room16" height="300px" width="100px"
+                style="border-radius: 5px;">
+            <div class="card-body">
+
+                <h5 class="card-title">{{l.hotelName}} </h5>
+                <h5 class="card-title">{{l.location}}</h5>
+                <h6 class="card-title">{{l.phoneNumber}}</h6>
+
+                <ngb-rating [max]="star" [readonly]="true" class="filled-stars"></ngb-rating>
+            </div>
+        </div>
+
+
+    </div> -->
+
+
+    <script src="https://kit.fontawesome.com/95a02bd20d.js"></script>
+
+    <div class="container container-width" style="display: contents;">
+        <div class="card gap-2" *ngFor="let l of hotels">
+            <div class="face face1" style="width: 400px;">
+                <div class="content" height="300px" width="100px">
+                    <img [src]="l.imgpath" class="card-img-top" alt="room16" height="300px" width="100px">
+                </div>
+            </div>
+            <div class="face face2" style="margin: 0; padding: 0; height: auto;display: flex; width: 400px;">
+                <div class="content"
+                    style="text-align: left;background-color: #2C3E50;width: 100%;margin: 0;padding: 30px;justify-content: space-between;">
+                    <p class="card-title" style="margin-top: 30px;">{{l.hotelName}} </p>
+                    <p class="card-title">{{l.location}}</p>
+                    <p class="card-title">{{l.phoneNumber}}</p>
+                    <ngb-rating [max]="star" [readonly]="true" class="filled-stars"></ngb-rating>
+                    <!-- <a href="room?hotelnm={{l.hotelName}}" class="btn btn-danger" >Book Now</a> -->
+
+                    <span> <a href="room?hotelnm={{l.hotelName}}">View Rooms</a></span>
+                    <!-- <button class="btn btn-danger" type="button" style="margin-left: 10px;" href="reserve">Book Now</button> -->
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!--   
+    <div class="container">
+       <div class="card">
+         <div class="face face1">
+           <div class="content">
+              <i class="fab fa-windows"></i>            
+             <h3>Windows</h3>
+           </div>
+         </div>
+         <div class="face face2">
+           <div class="content">
+             <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde ab repudiandae, explicabo voluptate et hic cum ratione a. Officia delectus illum perferendis maiores quia molestias vitae fugiat aspernatur alias corporis?</p>
+             <a href="#" type="button">Read More</a>
+           </div>
+         </div>
+      </div>
+    </div> -->
+
+
+
+</div>

@@ -1,0 +1,106 @@
+<app-sidebar></app-sidebar>
+
+<!-- 
+<div class="container">
+    <h1 style="font-size: 20px;text-align: center;">Your Gateway to Amazing Stays</h1>
+    <h1 style="font-size: 30px;text-align: center;">Register for Free!</h1>
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="offset-md-2 col-md-8" style="margin-top: 80px;">
+                <form [formGroup]="reservationForm"  (ngSubmit)="addReservation()">
+                   
+
+                    
+                    
+
+                    <div class="form-floating mb-3">
+                        <input type="date" class="form-control" id="floatingInput" placeholder="checkInDate" formControlName="checkInDate">
+                       
+                        <label for="floatingInput"> check-in</label>
+                    </div>
+                   
+                    <div class="form-floating mb-3">
+                        <input type="date" class="form-control" id="floatingInput" placeholder="Check Out Dates" formControlName="checkOutDate">
+                       
+                        <label for="floatingInput"> check-out</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                       
+                    
+                        <input type="number" class="form-control" id="floatingInput" placeholder="total Amount" formControlName="totalAmount" />
+                        <label for="floatingInput"> total Amount</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                       
+                                         
+                        <input type="number" class="form-control" id="floatingInput" placeholder="room number" formControlName="roomnumber" />
+                        <label for="floatingInput"> room number</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                       
+                       
+                        <input type="number" class="form-control"  id="floatingInput" placeholder="customerID" formControlName="customerID" />
+                        <label for="floatingInput">customerID</label>
+                    </div>
+                    
+                    <div class="form-floating mb-3 " style="margin-top: 30px;margin-left: 200px;">
+                        <a type="submit" class="btn btn-danger btn-lg" href="pay">Reserve Now</a>&nbsp;
+                        <button type="reset" class="btn btn-danger btn-lg">Reset</button>
+                        
+                        
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div> -->
+
+
+<body style="background-color: #212323; width: 100%; height: 100%; z-index: -1; margin-top: -75px;">
+    <div class="container"
+        style="background-color: #212323; padding-top: 50px; padding-bottom: 100px;margin-top: 80px; ">
+        <div class="row">
+            <h1 style="font-size: 20px; text-align: center;color: white; ">Your Gateway to Amazing Stays</h1>
+            <h1 style="font-size: 30px; text-align: center;color: white; margin-bottom: 50px;">DreamStay</h1>
+            <div class="col-md-6">
+                <img src="../../assets/registerpage.jpeg" width="600px" height="750px" style="margin-left: 40px;">
+            </div>
+            <div class="col-md-6" style="background-color: #dfe6e0">
+                <form [formGroup]="reservationForm" (ngSubmit)="addReservation()" class="justify-content-center opacity-100">
+
+                    <div class="form-floating mb-3">
+
+                        <input type="date" class="form-control" id="floatingInput" placeholder="checkInDate"
+                            formControlName="checkInDate" required>
+
+                        <label for="floatingInput"> check-in</label>
+                    </div>
+
+                    <div class="form-floating mb-3">
+                        <input type="date" class="form-control" id="floatingInput" placeholder="Check Out Dates"
+                            formControlName="checkOutDate" required>
+
+                        <label for="floatingInput"> check-out</label>
+                    </div>
+
+
+                    <div class="form-floating mb-3">
+                        <input type="number" class="form-control" id="floatingInput" placeholder="total Amount"
+                            formControlName="totalAmount" />
+                        <label for="floatingInput"> total Amount</label>
+                    </div>
+
+                   
+                    <div class="form-floating mb-3 " style="margin-top: 30px;margin-left: 200px;width: 800px;">
+                        <a type="submit" class="btn btn-success btn-lg" href="pay"><i class="fas fa-key"></i> Reserve Now</a>&nbsp;
+                        <button type="reset" class="btn btn-danger btn-lg"><i class="fas fa-sync"></i> Reset</button>
+                        
+                        
+                    </div>
+
+
+                </form>
+            </div>
+        </div>
+    </div>
+</body>

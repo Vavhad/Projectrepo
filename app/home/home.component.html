@@ -1,0 +1,201 @@
+<div class="navbar " style="margin: 18px;position: absolute;">
+  <div class="d-grid gap-2 d-md-flex justify-content-md-end ms-auto">
+
+
+
+    <!-- home.component.html -->
+
+    <div class="row" style="margin-top: -160px; z-index: 1; margin-left: 100px;height: 80px;">
+      <div class="col-12">
+        <div class="container d-flex justify-content-end align-items-start" style="width: 100vw; padding: 20px;">
+          <!-- Register Button -->
+          <a class="btn register-btn" href="registerform" role="button">
+            <i class="fas fa-user"></i> Register <!--[hidden]="!showButton" (click)="hideButton()"-->
+          </a>
+          <!-- Sign In Button -->
+          <a class="btn btn-success ms-2  btn-sign-in signin-btn" href="sform">
+            <i class="fas fa-sign-in-alt"></i> Sign In <!--(click)="toggleSignInCollapse()"-->
+          </a>
+
+          <span><a class="view" href="respage"></a></span>
+
+
+          <!--Register Collapse-->
+          <!--  
+      <div class="collapse multi-collapse mt-2" id="registerCollapse">
+        <div class="card card-body" style="background-color: #2C3E50;">
+          <div class="d-grid gap-2 col-12 mx-auto">
+            <button class="btn" type="button" style="background-color: #566573; color: white;">
+              <i class="fas fa-user" mat-raised-button ></i> Register as a Customer
+            </button>
+            <button class="btn" type="button" style="background-color: #566573; color: white;">
+              <i class="bi bi-house-door"></i> Register as a Hotelier
+            </button>
+          </div>
+        </div>
+      </div>
+    -->
+
+          <!-- Sign In Collapse -->
+          <!--
+      <div class="collapse multi-collapse mt-2" id="signInCollapse">
+        <div class="card card-body" style="background-color: #2C3E50;">
+          <div class="d-grid gap-2 col-12 mx-auto">
+            <button class="btn" type="button" style="background-color: #566573; color: white;">
+              <i class="fas fa-sign-in-alt"></i> Sign In as a Customer
+            </button>
+            <button class="btn" type="button" style="background-color: #566573; color: white;">
+              <i class="bi bi-house-door"></i> Sign In as a Hotelier
+            </button>
+          </div>
+        </div>
+      </div>
+    -->
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+  </div>
+</div>
+
+
+
+
+<div class="card  back-img text-bg-dark">
+  <img src="../../assets/Home1.jpg" class="card-img opacity-50 " alt="..." height="800px">
+  <div class="card-img-overlay">
+    <h1 class="card-title" style="font-size: 40px;"> DreamStay</h1>
+    <h3 class="card-text" style="font-size: 30px;">Where comfort meets convienence</h3>
+  </div>
+</div>
+
+
+<div class="container text-center search ">
+  <div class="row row-cols-auto">
+    <div class="row row-cols-auto search-margin">
+      <span class="input-group-text span-inside" style="border: 0;"><i class="bi bi-geo-alt">
+          <input type="text" class="col search-inside" placeholder="Where" style="border: 0;"></i>
+      </span>
+    </div>
+    <!-- <div class="row row-cols-auto search-margin">
+        <span class="input-group-text span-inside"><i class="bi bi-calendar">
+            <input type="date"  class="col search-inside" placeholder="Check In"  style="font-size: 15px; border: 1px solid black;"></i></span>
+     </div>
+     <div  class="row row-cols-auto search-margin">
+        <span class="input-group-text span-inside"><i class="bi bi-calendar">
+            <input type="date" class="col search-inside" placeholder="Check Out" style="font-size: 15px; border: 1px solid black;"></i></span>
+     </div> -->
+
+    <!-- Your HTML code -->
+
+
+    <div class="row row-cols-auto search-margin">
+      <span class="input-group-text span-inside"  style="border: 0;" data-bs-toggle="popover" data-bs-placement="top" title="Check In"
+        data-bs-content="Select the check-in date">
+        <button type="button" class="btn" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="top"
+          data-bs-content="Top popover">
+          <i class="bi bi-calendar">
+            <input type="date" class="col search-inside" style="font-size: 15px; border: 0;">
+          </i>
+        </button>
+      </span>
+    </div>
+
+
+
+    <div class="row row-cols-auto search-margin">
+      <span class="input-group-text span-inside"  style="border: 0;" data-bs-toggle="popover" data-bs-placement="top" title="Check Out"
+        data-bs-content="Select the check-out date">
+        <button type="button" class="btn" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="top"
+          data-bs-content="Top popover">
+          <i class="bi bi-calendar">
+            <input type="date" class="col search-inside" style="font-size: 15px; border: 0">
+          </i>
+        </button>
+      </span>
+    </div>
+
+
+
+
+    <div class="row row-cols-auto search-margin">
+      <span class="input-group-text span-inside"  style="border: 0;"><i class="bi bi-person">
+          <input type="text" class=" col search-inside" placeholder="Adults"  style="border: 0;"></i></span>
+    </div>
+
+
+    <div class="row row-cols-auto search-margin">
+      <button class="btn btn-danger btn-search" type="submit">Search</button>
+    </div>
+
+
+  </div>
+</div>
+
+
+
+<h2>Browse by Room type</h2>
+
+<div id="carouselExampleAutoplaying" class="carousel slide margin-carousel" data-bs-ride="carousel"
+  data-bs-interval="2000">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <div class="d-flex justify-content-around">
+        <img src="../../assets/Room2.jpeg" class="d-block w-25" height="300px" alt="Room 2">
+        <img src="../../assets/Room3.jpeg" class="d-block w-25" height="300px" alt="Room 3">
+        <img src="../../assets/Room4.jpg" class="d-block w-25" height="300px" alt="Room 4">
+        <div class="carousel-caption text-center">
+          <a href="book" style="text-decoration: none;">
+            <h3>Deluxe Room</h3>
+          </a>
+        </div>
+      </div>
+    </div>
+
+
+
+
+    <div class="carousel-item">
+      <div class="d-flex justify-content-around">
+
+        <img src="../../assets/Room8.jpeg" class="d-block w-25" height="300px" alt="Room 5">
+        <img src="../../assets/Room9.jpeg" class="d-block w-25" height="300px" alt="Room 6">
+        <img src="../../assets/Room11.jpeg" class="d-block w-25" height="300px" alt="Room 7">
+        <div class="carousel-caption text-center">
+          <a href="book" style="text-decoration: none;">
+            <h3>Standard Room</h3>
+          </a>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="carousel-item">
+      <div class="d-flex justify-content-around">
+        <img src="../../assets/Room12.jpeg" class="d-block w-25" height="300px" alt="Room 8">
+        <img src="../../assets/Room15.jpeg" class="d-block w-25" height="300px" alt="Room 9">
+        <img src="../../assets/Room16.jpeg" class="d-block w-25" height="300px" alt="Room 10">
+        <div class="carousel-caption text-center">
+          <a href="book" style="text-decoration: none;">
+            <h3>Suite Room</h3>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>

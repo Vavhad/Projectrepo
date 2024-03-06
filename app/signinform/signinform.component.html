@@ -1,0 +1,121 @@
+<!-- <app-sidebar></app-sidebar> -->
+
+<!-- 
+<div class="container" style="margin-top: 100px;">
+    <h1 style="font-size: 20px;text-align: center;">Stay Connected To DreamStay</h1>
+    <h1 style="font-size: 30px;text-align: center;">Your Next Adventure Awaits</h1>
+    <div class="row justify-content-center" style="margin-top: 30px;margin-bottom: 50px;">
+        <div class="col-md-8">
+          
+            <div class="offset-md-2 col-md-8" style="margin-top: 80px;">
+                <form [formGroup]="myform" (ngSubmit)="checkUser()">
+
+
+                    <div class="form-floating mb-3">
+                        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com"
+                            formControlName="email">
+                        <span [ngClass]="'error'" *ngIf="email?.invalid">*Email is Mandatory</span>
+                        <label for="floatingInput">Email address</label>
+                    </div>
+
+                    <div class="form-floating mb-3">
+                        <input type="password" class="form-control" id="floatingPassword" placeholder="Password"
+                            formControlName="password">
+                        <span [ngClass]="'error'" *ngIf="password?.invalid">*Password is Mandatory</span>
+                        <label for="floatingPassword">Password</label>
+                    </div>
+
+
+                    <div class="form-floating mb-3 " style="margin-top: 30px;margin-left: 200px;">
+                        <button type="submit" class="btn btn-success btn-lg"><i class="fas fa-sign-in-alt"></i> Sign
+                            In</button>
+
+                    </div>
+                </form>
+            </div>
+        </div>
+           
+    </div>
+</div> -->
+
+
+<!-- <div style="background-color: #212F3D;z-index: -1;height: 95px;margin-top: -150px;">
+
+</div>
+ -->
+
+<!-- 
+<div class=" row back-img justify-content-center" >
+<div class="container" style="margin-top: 100px;">
+    <div style="font-size: 20px;text-align: center;">
+        <h1 >Stay Connected To DreamStay</h1>
+        <h1 style="font-size: 30px;">Your Next Adventure Awaits</h1>
+    </div>
+   
+    <div class="row justify-content-center" style="margin-top: 30px;margin-bottom: 50px;">
+        <div class="col-md-8">
+            <div class="offset-md-2 col-md-8" style="margin-top: 80px;background-color: whitesmoke; padding: auto;border-radius: 20px;">
+                <form [formGroup]="myform" (ngSubmit)="showData()">
+
+                   
+                    <div class="form-floating mb-3" style="font-family: Copperplate, Copperplate Gothic Light, fantasy;">
+                        <input type="email" class="form-control" style="font-family: 'Courier New', Courier, monospace;" id="floatingInput" placeholder="name@example.com" formControlName="email">
+                        <span [ngClass]="'error'" *ngIf="email?.invalid" >*Email is Mandatory</span>
+                        <label for="floatingInput">Email address</label>
+                    </div>
+
+                    <div class="form-floating mb-3">
+                        <input type="password" class="form-control" id="floatingPassword" placeholder="Password" formControlName="password">
+                        <span [ngClass]="'error'" *ngIf="password?.invalid" >*Password is Mandatory</span>
+                        <label for="floatingPassword">Password</label>
+                    </div>
+
+                  
+                    
+                    <div class="form-floating mb-3 " style="margin-top: 30px;margin-left: 200px;">
+                        <button type="submit" class="btn btn-success btn-lg"><i class="fas fa-sign-in-alt"></i> Sign In</button>
+                        
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+</div>-->
+
+
+
+<div style="background-color: #212F3D;z-index: -1;height: 160px;margin-top: -150px;">
+
+
+</div>
+
+
+
+
+
+<div class="login_box_styling">
+        <div class="login-box" style="background-color:#212F3D">
+            <h2>Sign In</h2>
+            <form [formGroup]="myform" (ngSubmit)="checkUser()">
+                <div class="user-box">
+                    <input type="text" name="email" formControlName="email" required="">
+                    <span [ngClass]="'error'" *ngIf="email?.invalid"> *Email Id is Mandatory</span>
+                    <label>Email Id</label>
+                </div>
+                <div class="user-box " style="background-color: #212F3D;">
+                    <input type="password" name="password" formControlName="password" required="">
+                    <span [ngClass]="'error'" *ngIf="password?.invalid"> *Password is Mandatory</span>
+                    <label>Password</label>
+                </div>
+                <button href="#" type="submit">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <i class="fas fa-sign-in-alt"></i>
+                    Sign In
+                </button>
+            </form>
+        </div>
+    </div>

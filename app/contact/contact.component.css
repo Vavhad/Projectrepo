@@ -1,0 +1,98 @@
+.back-img {
+
+    object-fit: cover;
+    margin-top: -8.8em;
+    /* Ensure the image covers the entire container */
+    z-index: -1;
+    border: 0;
+
+
+}
+
+.card {
+    width: 100%;
+    border: none;
+}
+
+
+
+.card-text {
+    font-size: 20px;
+}
+
+.social-icon {
+    font-size: 2rem;
+    margin: 0 10px;
+    color: black;
+    
+    
+
+}
+
+.card-1 {
+    background-color: whitesmoke;
+    height: 90px;
+   
+    text-align: center;
+
+   
+    
+}.card-2{
+    background-color: #a3a0a0;
+}
+.card-title i{
+    margin-right: 10px;
+}
+
+  
+  .card-3 {
+    height: 200px;
+    width: 100%;
+    
+    
+  }.card-3 p{
+    background-color: white;
+    margin-top: 80px;
+    height: 70px;
+
+    text-align: center;
+    padding: 13px;
+  }
+
+  a , p ,h5{
+    font-family: Copperplate, "Copperplate Gothic Light", fantasy; 
+   
+  }
+  h5{
+    font-weight: larger;
+  }
+
+
+  .profile{
+    background-color: transparent !important;
+  }
+
+  .navbar-toggler i.fas {
+    font-size: 24px; /* Adjust the font size as needed */
+    transition: transform 0.3s ease; /* Add a transition effect */
+  }
+
+  .navbar-toggler:hover i.fas {
+    transform: scale(1.2); /* Increase the size on hover */
+  }
+
+  .navbar-toggler:focus {
+    outline: none; /* Remove the outline on focus */
+  }
+
+  .navbar-toggler.active i.fas {
+    transform: rotate(180deg); /* Rotate the icon when the offcanvas is active */
+  }
+
+
+  .text-over-img{
+    text-align: center;
+    margin-top: 300px;
+    color:white;
+    font-family:  Copperplate, "Copperplate Gothic Light", fantasy;
+  }
